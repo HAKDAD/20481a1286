@@ -37,7 +37,7 @@ type TrainPrice struct {
 func main() {
 	router := gin.Default()
 
-	router.GET("/trains", func(c *gin.Context) {
+	router.GET("/data", func(c *gin.Context) {
 		trainsList, err := GETTRAINS()
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
