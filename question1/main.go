@@ -51,7 +51,7 @@ func main() {
 
 func GETTRAINS() ([]Train, error) {
 	apiURL := "http://104.211.219.98/train/trains"
-	bearerToken := "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODczMjgwODksImNvbXBhbnlOYW1lIjoiVmFtc2kgQ2VudHJhbCIsImNsaWVudElEIjoiMjVmZTAwMjMtY2U4Ny00MmFjLTk2MjMtOTU3Y2U3OTdkYjRiIiwib3duZXJOYW1lIjoiIiwib3duZXJFbWFpbCI6IiIsInJvbGxObyI6IjIwNDgxYTEyODYifQ.7gBXV_RBmnnBggR6LD_UhqGsrgNW29n-yQAyGAelgcc" // Replace with your actual bearer token
+	bearerToken := "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODczMjk0MTEsImNvbXBhbnlOYW1lIjoiVmFtc2kgQ2VudHJhbCIsImNsaWVudElEIjoiMjVmZTAwMjMtY2U4Ny00MmFjLTk2MjMtOTU3Y2U3OTdkYjRiIiwib3duZXJOYW1lIjoiIiwib3duZXJFbWFpbCI6IiIsInJvbGxObyI6IjIwNDgxYTEyODYifQ.Q0DUjiuQzJXgdlrFMrd5Ug5SHrYX_Y-En3qBfV40fCs" // Replace with your actual bearer token
 
 	cli := &http.Client{}
 
